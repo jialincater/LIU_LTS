@@ -25,3 +25,11 @@ void MainWindow::on_pushButton_3_clicked()
 {
     this->close();
 }
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    this->hide();
+    edit.show();
+    edit.exec();
+    this->show();
+}

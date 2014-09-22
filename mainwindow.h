@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "dialog.h"
+#include "dialog1.h"
 
 namespace Ui {
 class MainWindow;
@@ -21,9 +22,12 @@ private slots:
 
     void on_pushButton_3_clicked();
 
+    void on_pushButton_2_clicked();
+
 private:
     Ui::MainWindow *ui;
     Dialog reg;
+    Dialog1 edit;
 };
 
 #endif // MAINWINDOW_H
